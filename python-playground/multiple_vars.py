@@ -10,3 +10,8 @@ x,y,z = "Orange", "Banana", "Cherry"
 #     f, z, i = "John"
 #     ^^^^^^^
 # ValueError: too many values to unpack (expected 3)
+
+fruits = ['apple', 'banana', 'cherry']
+a, b, c = fruits
+print(a, c)
+
